@@ -1,0 +1,91 @@
+/* making the margin and padding of the page 0*/
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+}
+/* assiging the font and backgroundsize to body*/
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-size:cover;
+}
+/* lightbox design model style */
+.model{
+	display:none;
+	position: fixed;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+/* content in the lightbox */
+.modal1-content{
+	background-color: white;
+	margin: 20% auto;
+	padding:20px;
+	width:70%;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.17);
+	animation-name:modalopen;
+	animation-duration:1s;
+}
+/* style for the X symbol in lightbox*/
+.closeBtn{
+	color:#ccc;
+	float:right;
+	font-size: 30px;
+}
+/* effects to X symbol in lightbox */
+.closeBtn:hover,.closeBtn:focus{
+	color:#000;
+	text-decoration: none;
+	cursor:pointer;
+}
+/* to get some space at the bottom of the page */
+.start{
+	margin:20px;
+}
+/* flight details display formate*/
+.container1{
+	background:#fff;
+	margin-top:20px;
+	padding:20px;
+	border-radius:10px;
+	font-size:20px;
+	font-family: bold;
+	border:1px solid black;
+	height:80px;
+	vertical-align: top;
+}
+/* get shadow around the box of the flight details*/
+.container1:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* style for the text when it displays no flights*/
+.error{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.header{
+	border:2px solid rgb(160, 62, 70);
+}
+/* change the style in details of the flight */
+.labels{
+	text-align: center;
+	position: fixed;
+	font-size: 20px;
+}
+/* make some margin values between the attriutes in the lightbox*/
+.padd{
+	margin-bottom:10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+/* to make some animation to display the lightbox */
+@keyframes modalopen{
+	from{opacity:0}
+	to{opacity:1}
+}
