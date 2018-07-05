@@ -14,6 +14,7 @@ By clicking Book button a confirmation message is shown to confirm booking.As so
 2. Open the Xampp Control Panel, Start the Apache and MySQL services.
 3. Open Command Promt and run the commands as mentioned in the above createtable.txt file.
 4. UnZip the Project and put it in the [ C:/xampp/htdocs/ ] directory.
+### 5. Copy the FILENAME and Go to [ application/config/ ] and open config.php file - change $config['base_url']="http://localhost/[FILENAME]/"
 5. Open Browser and go to localhost/FlightBooking/
 6. Web Applicatoin runs.
 
