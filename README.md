@@ -1,3 +1,7 @@
+# Demo 
+
+https://oletirevanth6.000webhostapp.com/?
+
 # FlightBooking
 It is a Web Application to book flight tickets. Project contain files and libraries of framework called CodeIgniter. In application folder we can find different folder like models,view,controllers,configuration and so on. In system folder it contain the libraries used by the framework. 
 
@@ -14,8 +18,8 @@ By clicking Book button a confirmation message is shown to confirm booking.As so
 2. Open the Xampp Control Panel, Start the Apache and MySQL services.
 3. Open Command Promt and run the commands as mentioned in the above createtable.txt file.
 4. UnZip the Project and put it in the [ C:/xampp/htdocs/ ] directory.
-### 5. Copy the FILENAME and Go to [ application/config/ ] and open config.php file - change $config['base_url']="http://localhost/[FILENAME]/"
-6. Open Browser and go to localhost/[FILENAME]/
+5. Rename the folder as ### FlightBooking
+6. Open Browser and go to localhost/FlightBooking/
 7. Web Applicatoin runs.
 
 # Execution flow
